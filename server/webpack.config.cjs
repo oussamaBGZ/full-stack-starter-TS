@@ -5,7 +5,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, "build"),
-        filename: "bundle.cjs",
+        filename: "bundle.[contenthash].cjs",
         clean: true
     },
     mode: 'production',
