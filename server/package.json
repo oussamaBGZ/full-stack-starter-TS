@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
+    "build": "webpack",
     "build:dev": "webpack --watch",
     "start": "node --watch ./build/bundle.cjs"
   },
