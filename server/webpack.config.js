@@ -7,7 +7,7 @@ export default {
     },
     output: {
         path: path.resolve(__dirname, "build"),
-        filename: "bundle.[contenthash].cjs",
+        filename: "bundle.cjs",
         clean: true
     },
     mode: 'production',
