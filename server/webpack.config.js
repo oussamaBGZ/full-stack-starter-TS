@@ -1,7 +1,7 @@
 import path from "path";
 const __dirname = path.resolve();
 
-module.exports = {
+export default {
     entry: {
         app: path.resolve(__dirname, "src/index.ts")
     },
